@@ -1,5 +1,5 @@
-.background-container {
-    height: 200vh;
+body {
+    height: 250vh;
     background-image: linear-gradient(
         to bottom,
         rgba(245, 245, 220, 0.3),
@@ -12,8 +12,34 @@
     position: relative;
     
 }
+
+#home {
+    margin-top: 8rem;
+    padding: 3rem;
+   
+    
+ 
+}
+#homeimage {
+    width: 20vw;
+    border-radius: 1rem;
+    border-radius: 1rem;
+    display: flex;
+}
+
+#about {
+    margin-top: 15rem;
+    padding: 3rem;
+}
+#aboutimage {
+    width: 20vw;
+    border-style: hidden;
+    border-radius: 1rem;
+    display: flex;
+
+}
 .project-wrapper--flex {
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-right: 1rem;
     width: 100vw;
     padding: 1rem;
@@ -21,7 +47,7 @@
     flex-wrap: wrap;
 }
 .project-wrapper--flex > .project__card--flex {
-    margin: 5rem;
+    margin: 3rem;
 }
 .project__card--flex {
     width: 16rem;
